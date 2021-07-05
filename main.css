@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+.main-container{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.announcements{
+    display: flex;
+    justify-content: center;
+    background-color: #d8e8e3;
+    margin-bottom: 32px;
+}
+.announcements span{
+    padding-top:3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 50%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+    line-height:1.7em;
+    
+    color: #000000;
+}
+.left-right-section{
+    display: flex;
+
+    margin-bottom: 32px;
+}
+.left-right-section .text{
+    background-color: #f1f8f6;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1e3932;
+    padding: 32px 48px;
+}
+.text h1,.text h3{
+    margin: 0;
+}
+.text h1{
+    margin-bottom: 21px;
+    text-align: center;
+}
+.text h3{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.left-right-section .image{
+    /* height: 420px; */
+    display: flex;
+    width: 50%;
+}
+.left-right-section .image img{
+    /* height: 100%; */
+    width: 100%;
+}
+.text .cta{
+    cursor:pointer;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+    width: fit-content;
+}
+.text .cta:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+    padding: 7px 30px;
+}
+/* chill section */
+.chill .text{
+    background-color: #f2f0eb;
+}
+.chill .text h1{
+    font-weight:800;
+    font-size: 52px;
+    line-height: 1.2;
+    letter-spacing: 8px;
+}
+.chill .text h3{
+    font-size: 24px;
+    line-height: 1.5;
+}
+/* 3rd section */
+section{
+    display: flex;
+    
+}
+.top-bottom-section{
+    width: 50%;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-bottom-section .image{
+    display: flex;
+    width: 100%;
+}
+.top-bottom-section img{
+    width: 100%;
+}
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-bottom-section:first-child .section-container{
+    margin-right: 16px;
+}
+.top-bottom-section:last-child .section-container{
+    margin-left: 16px;
+}
+
+.top-bottom-section{
+/* For making a flex box of full size */
+    display: flex;
+}
+.top-bottom-section .text{
+    color: #1e3932;
+    background-color: #d4e9c2;
+    padding : 12px 24px 32px 24px ;
+    /* flex-grow to fill the remaining gap in text */
+    flex-grow: 1;
+    margin-bottom: 36px;
+}
+.top-bottom-section .text h1{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.top-bottom-section .text h3{
+    font-size: 19px;
+    line-height: 1.75;
+}
